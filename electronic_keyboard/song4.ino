@@ -11,14 +11,14 @@ int melody[] = {
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
-  4, 8, 8, 4, 4, 4, 4, 4
+  4, 8, 8, 4, 4, 4, 4, 4 
 };
 
 
       lcd.setCursor(1, 0);
       lcd.print("Now playing...");
       lcd.setCursor(0, 1);
-      lcd.print("  SONG 4 TITLE");
+      lcd.print("  POKEMON THEME");
      
       
 

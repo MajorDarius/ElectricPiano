@@ -38,7 +38,7 @@
 #define NOTE_A3  220
 #define NOTE_AS3 233
 #define NOTE_B3  247
-#define NOTE_C4  262
+#define NOTE_C4  262 //MIDDLE C
 #define NOTE_CS4 277
 #define NOTE_D4  294
 #define NOTE_DS4 311
@@ -394,7 +394,7 @@ void Song4title()  {
           lcd.setCursor(0, 0);
           lcd.print("     SONG 4");
           lcd.setCursor(0, 1);
-          lcd.print("   TITLE HERE");
+          lcd.print("   POKEMON THEME");
           delay(50);
           }
         
