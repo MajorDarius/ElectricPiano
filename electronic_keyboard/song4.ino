@@ -6,12 +6,36 @@ void Song4()  {
 
 // notes in the melody:
 int melody[] = {
-  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+  NOTE_D3, NOTE_D3, NOTE_A3,
+  NOTE_D3, NOTE_D3, NOTE_AS3,
+  NOTE_D3, NOTE_D3, NOTE_A3,
+  NOTE_D3, NOTE_D3, NOTE_FS3,
+  NOTE_D3, NOTE_D3, NOTE_A3,
+  NOTE_D3, NOTE_D3, NOTE_CS4,
+  NOTE_D4, NOTE_D3, NOTE_C4,
+  NOTE_D3, NOTE_D3, NOTE_D3,
+  NOTE_A3, NOTE_D3, NOTE_D3,
+  NOTE_AS3, NOTE_D3, NOTE_D3,
+  NOTE_C4, NOTE_D3, NOTE_D3,
+  NOTE_CS4, NOTE_D4, NOTE_D5
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
-  4, 8, 8, 4, 4, 4, 4, 4 
+  8, 8, 4,
+  8, 8, 4,
+  8, 8, 4,
+  8, 8, 4, 
+  8, 8, 4,
+  8, 8, 4,
+  2, 2, 2,
+  2, 8, 8,
+  4, 8, 8,
+  4, 8, 8,
+  4, 8, 8,
+  4, 1, 8 //before main start
+  
+  
 };
 
 
